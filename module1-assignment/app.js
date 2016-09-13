@@ -5,7 +5,7 @@ angular.module('Mod1App', [])
 .controller('LunchCheckController', LunchCheckController);
 
 LunchCheckController.$inject = ['$scope'];
-function FoodController($scope) {
+function LunchCheckController($scope) {
   $scope.selections = "";
   $scope.foodCount = 0;
   $scope.message = "";
